@@ -7,6 +7,5 @@ while true:
   var event: TIRCEvent
   if client.poll(event):
     echo event.params
-  else: nil
 
   sleep 10
